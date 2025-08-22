@@ -2,7 +2,7 @@ import LightRays from "./ui-components/light-rail"
 
 function App() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+    <section className="relative py-40 flex flex-col items-center justify-center overflow-hidden">
       
       {/* Fundo animado */}
       <div className="absolute inset-0 -z-10">
