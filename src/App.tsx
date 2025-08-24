@@ -2,21 +2,21 @@ import LightRays from "./ui-components/light-rail"
 
 function App() {
   return (
-    <section className="relative py-40 flex flex-col items-center justify-center overflow-hidden">
+<section className="relative p-45 w-full flex flex-col items-center justify-center overflow-hidden">
       
       {/* Fundo animado */}
       <div className="absolute inset-0 -z-10">
         <LightRays
           raysOrigin="bottom-center"
           raysColor="#fff"
-          raysSpeed={1.5}
+          raysSpeed={1}
           lightSpread={0.8}
-          rayLength={1.2}
+          rayLength={1.5}
           followMouse={true}
           mouseInfluence={0.1}
           noiseAmount={0.1}
           distortion={0.05}
-          className="w-full h-full"
+          className="min-h-screen"
         />
       </div>
 
