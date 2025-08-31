@@ -10,9 +10,9 @@ export function Planos() {
     return (
         <>
             <section className="mb-6 w-full h-130">
-                <div className="flex gap-3.5 align-center mt-24 justify-center w-full">
+                <div className="flex gap-11 align-center mt-24 justify-center max-w-full">
                     <div className="w-72">
-<Card className="mx-auto  h-fit min-h-110 bg-black border-0 shadow-lg shadow-gray-500 ">
+                    <Card className="mx-auto  h-fit min-h-110 bg-black border-0 shadow-lg shadow-gray-500 ">
                         <div className="flex justify-between">
                             <h1 className="text-xl text-gray-200 flex font-bold">Plano Micro</h1>
                             <Cloud className="text-amber-700" />
@@ -92,7 +92,7 @@ export function Planos() {
                     
                 
                  <div className="w-72">
-<Card className="mx-auto  h-fit min-h-110 bg-black border-0 shadow-lg shadow-gray-500 ">
+                  <Card className="mx-auto  h-fit min-h-110 bg-black border-0 shadow-lg shadow-gray-500 ">
                         <div className="flex justify-between">
                             <h1 className="text-xl text-gray-200 flex font-bold">Plano Tech</h1>
                             <Cloud className="text-amber-700" />
@@ -171,7 +171,7 @@ export function Planos() {
                     </div>
                     
                 <div className="w-72">
-<Card className="mx-auto max-w-xs h-fit min-h-110 bg-black border-0 shadow-lg shadow-gray-500">
+                   <Card className="mx-auto max-w-xs h-fit min-h-110 bg-black border-0 shadow-lg shadow-gray-500">
                         <div className="flex justify-between">
                             <h1 className="text-xl text-gray-200 flex font-bold">Plano Sênior</h1>
                             <Presentation  className="text-amber-700" />

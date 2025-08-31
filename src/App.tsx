@@ -3,10 +3,10 @@ import LightRays from "./ui-components/light-rail"
 
 function App() {
   return (
-<section className="relative p-45 w-full flex flex-col items-center justify-center overflow-hidden">
+<section className="relative p-45 w-full flex flex-col items-center justify-center overflow-hidden ">
       
       {/* Fundo animado */}
-      <div className="absolute inset-0 -z-10">
+      <div className="absolute inset-0 -z-10 bg-black">
         <LightRays
           raysOrigin="bottom-center"
           raysColor="#adad85"
