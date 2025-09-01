@@ -5,7 +5,7 @@ import { Cloud, Presentation, LaptopMinimal } from "lucide-react";
 
 export function Planos() {
   return (
-    <section id="sessao-planos" className="w-full px-4 sm:px-6 lg:px-16 py-16">
+    <section id="sessao-planos" className="w-full bg-black px-4 sm:px-6 lg:px-16 py-16">
       {/* Título */}
       <div className="flex justify-center">
         <h1 className="text-amber-700 text-3xl sm:text-4xl md:text-5xl mt-12 mb-12 font-bold text-center">

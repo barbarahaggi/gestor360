@@ -4,7 +4,7 @@ export function Contato() {
     return (
         <section
             id="sessao-contato"
-            className="w-full px-4 py-16 md:py-20 lg:py-24 flex flex-col items-center"
+            className="bg-black w-full px-4 py-16 md:py-20 lg:py-24 flex flex-col items-center"
         >
             {/* Título */}
             <h1 className="text-amber-700 text-3xl md:text-4xl font-bold mb-6 text-center">
