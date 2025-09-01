@@ -4,11 +4,15 @@ import './index.css'
 import App from './App.tsx'
 import { Navbar } from './components/nav.tsx'
 import { Planos } from './components/plans-section.tsx'
+import { Sobre } from './components/about.tsx'
+import { Contato } from './components/contato.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Navbar />
     <App />
+    <Sobre />
     <Planos />
+    <Contato />
   </StrictMode>,
 )
