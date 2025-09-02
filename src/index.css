@@ -24,6 +24,11 @@
     cubic-bezier(0.16, 1, 0.3, 1);
   --animate-drawer-slide-right-and-fade: drawerSlideRightAndFade 150ms ease-in;
 
+
+
+  
+
+
   @keyframes hide {
     from {
       opacity: 1;

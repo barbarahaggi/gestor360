@@ -5,18 +5,18 @@ import { Cloud, Presentation, LaptopMinimal } from "lucide-react";
 
 export function Planos() {
   return (
-    <section id="sessao-planos" className="w-full bg-black px-4 sm:px-6 lg:px-16 py-16">
+    <section id="sessao-planos" className="w-full bg-black px-4 sm:px-6 lg:px-16 py-6">
       {/* Título */}
-      <div className="flex justify-center">
-        <h1 className="text-amber-700 text-3xl sm:text-4xl md:text-5xl mt-12 mb-12 font-bold text-center">
-          Pacotes de Crescimento
+      <div className="flex justify-center ">
+        <h1 className="text-amber-700 text-3xl sm:text-4xl md:text-5xl mt-25 mb-12 font-bold text-center pb-8">
+          Nossos Planos
         </h1>
       </div>
 
       {/* Grid responsivo para os planos */}
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:justify-center lg:gap-6 place-items-center gap-8">
             {/* --- PLANO MICRO --- */}
-        <Card className="w-full max-w-xs h-fit min-h-110 bg-black border-0 shadow-lg shadow-gray-500 p-6">
+        <Card className="w-full max-w-xs h-fit min-h-110 bg-black  shadow-lg shadow-gray-500 p-6 border-1">
           <div className="flex justify-between">
             <h1 className="text-xl text-gray-200 font-bold">Plano Micro</h1>
             <Cloud className="text-amber-700" />
@@ -98,14 +98,14 @@ export function Planos() {
           </Accordion>
 
           <div className="flex mt-8 justify-center">
-            <Button className="bg-gray-200 text-amber-700 hover:bg-amber-700 hover:text-white w-full sm:w-auto">
+            <Button className="bg-gray-200 text-black font-medium hover:bg-amber-700 hover:text-white w-full sm:w-auto">
               Teste grátis por 30 dias
             </Button>
           </div>
         </Card>
 
         {/* --- PLANO TECH --- */}
-        <Card className="w-full max-w-xs h-fit min-h-110 bg-black border-0 shadow-lg shadow-gray-500 p-6">
+        <Card className="w-full max-w-xs h-fit min-h-110 bg-black border-1 shadow-lg shadow-gray-500 p-6">
           <div className="flex justify-between">
             <h1 className="text-xl text-gray-200 font-bold">Plano Tech</h1>
             <LaptopMinimal className="text-amber-700" />
@@ -183,7 +183,7 @@ export function Planos() {
         </Card>
 
         {/* --- PLANO SÊNIOR --- */}
-        <Card className="w-full max-w-xs h-fit min-h-110 bg-black border-0 shadow-lg shadow-gray-500 p-6">
+        <Card className="w-full max-w-xs h-fit min-h-110 bg-black border-1 shadow-lg shadow-gray-500 p-6">
           <div className="flex justify-between">
             <h1 className="text-xl text-gray-200 font-bold">Plano Sênior</h1>
             <Presentation className="text-amber-700" />
@@ -254,7 +254,7 @@ export function Planos() {
           </Accordion>
 
           <div className="flex mt-8 justify-center">
-            <Button className="bg-gray-200 text-amber-700 hover:bg-amber-700 hover:text-white w-full sm:w-auto">
+            <Button className="bg-gray-200 text-black font-medium hover:bg-amber-700 hover:text-white w-full sm:w-auto">
               Teste grátis por 30 dias
             </Button>
           </div>

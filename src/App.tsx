@@ -5,7 +5,7 @@ function App() {
   return (
     <section
       id="sessao-home"
-      className="relative w-full flex flex-col items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-20 py-16 sm:py-20 lg:py-32"
+      className="relative w-full flex flex-col items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-20 py-16 sm:py-20 lg:py-32 "
     >
       {/* Fundo animado */}
       <div className="absolute inset-0 -z-10 bg-black">
@@ -24,7 +24,7 @@ function App() {
       </div>
 
       {/* Texto principal */}
-      <div className="text-center max-w-4xl mx-auto">
+      <div className="text-center max-w-4xl mx-auto ">
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-gray-300 leading-snug">
           Transforme a gestão{" "}
           <span className="text-amber-700">financeira</span> e{" "}

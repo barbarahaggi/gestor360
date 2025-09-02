@@ -27,9 +27,9 @@ export function Contato() {
                         id="email"
                         type="email"
                         className="rounded-xl w-full sm:w-96 px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-700"
-                        placeholder="seuemail@exemplo.com"
+                        placeholder="email@email.com"
                     />
-                </div>
+              
 
                 {/* Botão */}
                 <div className="flex justify-center">
@@ -37,6 +37,8 @@ export function Contato() {
                         Enviar
                     </Button>
                 </div>
+
+                  </div>
             </form>
         </section>
     );
